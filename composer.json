@@ -7,5 +7,6 @@
             "email": "dimi@donkeys.be"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev"
 }
