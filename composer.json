@@ -13,5 +13,21 @@
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9"
     },
+    "extra": {
+        "composer-exit-on-patch-failure": true,
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "www/"
+            }
+        },
+        "installer-paths": {
+            "www/core": ["type:drupal-core"],
+            "www/libraries/{$name}": ["type:drupal-library"],
+            "www/modules/contrib/{$name}": ["type:drupal-module"],
+            "www/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "www/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
+        }
+    },
     "minimum-stability": "dev"
 }
