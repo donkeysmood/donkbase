@@ -1,0 +1,11 @@
+{
+    "name": "donkeysmood/donkbase",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dimi",
+            "email": "dimi@donkeys.be"
+        }
+    ],
+    "require": {}
+}
